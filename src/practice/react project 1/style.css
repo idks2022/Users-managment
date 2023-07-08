@@ -1,0 +1,54 @@
+header {
+   padding: 1%;
+   display: flex;
+   width: 50%
+}
+
+.main {
+   display: flex;
+   /*border: 2px solid black;*/
+}
+
+header {
+   width: 100%;
+}
+
+.usersContainer {
+   /*border: 2px solid black;*/
+   width: 50%; 
+}
+
+.greenDiv {
+   border: 3px solid green;
+   margin: 0.5em;
+   padding: 0.5em;
+}
+
+.redDiv {
+    border: 2px solid red;
+    margin: 0.5em;
+    padding: 0.5em;
+ }
+
+ .todosAndPosts {
+   width: 50%;
+ }
+
+ .orangeDiv {
+   background-color: blanchedalmond;
+ }
+
+ .todo {
+   border: 1px solid grey;
+   padding: 5px;
+   margin: 5px;
+ }
+
+ .buttoms {
+   display: flex;
+   justify-content: space-between;
+ }
+
+ .errors {
+   color: red;
+ }
